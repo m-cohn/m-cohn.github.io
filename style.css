@@ -1,0 +1,131 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+#Home {
+    background-color: #29648A;
+}
+
+#Home p {
+    text-align: center;
+    font-size: 60px;
+    margin-top:-40px;
+    font-family: "Trebuchet MS", sans-serif;
+    color:white;
+}
+
+#About {
+    background-color: #AAABB8;
+}
+
+#Experience {
+    background-color: #29648A;
+}
+
+#Projects {
+    background-color: #AAABB8;
+}
+
+#Activities {
+    background-color: #29648A;
+}
+
+#Contact {
+    background-color: #AAABB8;
+}
+
+#circle {
+    width:40px;
+    height:40px;
+}
+
+#profile {
+    width:500px;
+    height: 500px;
+}
+
+.banner {
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color: rgba(70, 72, 102, .9);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.banner ul {
+    display:inline;
+    font-size:20px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.banner:before {
+    content:"";
+    display:block;
+    width:350px;
+    height:2px;
+    background:white;
+    left:20px;
+    top:50%;
+    position:absolute;
+}
+
+.banner:after {
+    content:"";
+    display:block;
+    width:350px;
+    height:2px;
+    background:white;
+    right:20px;
+    top:50%;
+    position:absolute;
+}
+
+a:link {
+    font-family: "Trebuchet MS", sans-serif;
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+}
+
+a:hover {
+    color: #2E9CCA;
+    text-decoration: none;
+}
+
+.contacts {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.contacts ul {
+    display:inline;
+    width:auto;
+}
+
+#Experience a {
+    font-size: 50px;
+}
+
+#name {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+    width:70%;
+    z-index:-1;
+}
+
+#wave {
+    height:300px;
+    width:300px;
+    z-index:-2px;
+    margin-top:-170px;
+}
